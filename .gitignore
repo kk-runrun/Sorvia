@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+data/projects/*.json
+data/uploads/*/
+data/outputs/*/
+screenshots/*.png
+screenshots/*.jpg
