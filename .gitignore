@@ -1,7 +1,51 @@
+# =========================
+# Python
+# =========================
 __pycache__/
 *.py[cod]
+.venv/
+venv/
+
+# =========================
+# Secrets / Environment
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# MCP / Credentials
+# =========================
+.mcp.json
+mcp.json
+mcp_config.json
+secrets.json
+credentials.json
+config.local.json
+
+# =========================
+# Runtime Data
+# =========================
 data/projects/*.json
-data/uploads/*/
-data/outputs/*/
+data/uploads/*
+data/outputs/*
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Screenshots / Temporary
+# =========================
 screenshots/*.png
 screenshots/*.jpg
+
+# =========================
+# IDE / OS
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
